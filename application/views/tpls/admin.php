@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="admin">
+<html lang="en" ng-app>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
         <title><?php echo isset($title) ? $title : 'Admin Panel'; ?></title>
 
         <link href="<?php echo css_url() ?>bootstrap.min.css" rel="stylesheet">
-
+        <script type="text/javascript" src="<?php echo js_url() ?>angular.min.js"></script>
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
